@@ -48,6 +48,6 @@ For every director, a binary-valued genre vector is generated where the entries 
 11- The directors-movies inter-layer adjacency: IMDB_DataSet.DirectorsMoviesInterLayerNetwork
 -----------------------------------------------------------------
 
-Authors: Esraa Alsharoa
-
+Author: Esraa Alsharoa
+------------------------
 Last page update: Dec. 14, 2021
