@@ -18,6 +18,10 @@ The mat file contains the following:
 * [The movies intra-layer adjacency](#The-movies-intra-layer-adjacency)
 * [The directors-movies inter-layer adjacency](#The-directors-movies-inter-layer-adjacency)
 
+Author: Esraa Alsharoa
+------------------------
+Last page update: Dec. 14, 2021
+
 
 ## The Directors Full Names
 IMDB_DataSet.DirectorsFullnames
@@ -75,6 +79,4 @@ such that a node from the director layer is connected to a
 node from the movie layer if the director directed that movie.
 
 
-Author: Esraa Alsharoa
-------------------------
-Last page update: Dec. 14, 2021
+
