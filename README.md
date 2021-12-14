@@ -16,6 +16,7 @@ The mat file contains the following:
 * [The directors's genres matrix](#The-directors's-genres-matrix)
 * [The directors intra-layer adjacency](#The-directors-intra-layer-adjacency)
 * [The movies intra-layer adjacency](#The-movies-intra-layer-adjacency)
+* [The directors-movies inter-layer adjacency](#The-directors-movies-inter-layer-adjacency)
 
 
 ## The Directors Full Names
@@ -56,16 +57,23 @@ For every director, a binary-valued genre vector is generated where the entries 
 
 
 ## The directors intra-layer adjacency
-IMDB_DataSet.DirectorsIntraLayerNetwork 
-
+IMDB_DataSet.DirectorsIntraLayerNetwork: The directors intra-layer network is constructed by calculating pair-wise Pearson correlation coefficient between
+the directors’ genre vectors. The edges with correlation values
+greater than 0.5 are kept in the final adjacency.
 
   
 ## The movies intra-layer adjacency
-IMDB_DataSet.MoviesIntraLayerNetwork
+IMDB_DataSet.MoviesIntraLayerNetwork: The movies intra-layer network is constructed by calculating pair-wise Pearson correlation coefficient between
+the movies’ genre vectors. The edges with correlation values
+greater than 0.5 are kept in the final adjacency.
 
 
-11- The directors-movies inter-layer adjacency: IMDB_DataSet.DirectorsMoviesInterLayerNetwork
------------------------------------------------------------------
+
+## The directors-movies inter-layer adjacency
+IMDB_DataSet.DirectorsMoviesInterLayerNetwork: The directors-movies inter-layer network is constructed
+such that a node from the director layer is connected to a
+node from the movie layer if the director directed that movie.
+
 
 Author: Esraa Alsharoa
 ------------------------
