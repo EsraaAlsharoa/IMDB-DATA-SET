@@ -19,7 +19,6 @@ The mat file contains the following:
 * [The directors-movies inter-layer adjacency](#The-directors-movies-inter-layer-adjacency)
 
 Author: Esraa Alsharoa
-------------------------
 Last page update: Dec. 14, 2021
 
 
