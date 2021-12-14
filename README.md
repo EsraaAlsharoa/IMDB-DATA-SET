@@ -18,7 +18,7 @@ The mat file contains the following:
 * [The movies intra-layer adjacency](#The-movies-intra-layer-adjacency)
 * [The directors-movies inter-layer adjacency](#The-directors-movies-inter-layer-adjacency)
 
-Author: Esraa Alsharoa
+## Author: Esraa Alsharoa
 Last page update: Dec. 14, 2021
 
 
