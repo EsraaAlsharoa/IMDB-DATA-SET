@@ -1,6 +1,8 @@
 # IMDB-DATA-SET
 This data set contains a mat file for a multi-layer network constructed form IMDB data set. The original data set is puplically available in SQL format in https://relational.fit.cvut.cz/dataset/IMDb.
-IMDB data set consists of movies on the IMDB’s top 250 and bottom 100 chart along with their genres and directors with  166 movies, 130 directors and 20 movie and director genres.
+IMDB data set consists of movies on the IMDB’s top 250 and bottom 100 chart along with their genres and directors with  166 movies, 130 directors and 20 movie and director genres. If you are using this data set, please cite the following paper:
+
+Al-Sharoa, Esraa M., and Selin Aviyente. "Community Detection in Fully-Connected Multi-layer Networks Through Joint Nonnegative Matrix Factorization." IEEE Access 10 (2022): 43022-43043.
 The mat file contains the following:
 -----------------------------------------------------------------
 ## Table of contents
